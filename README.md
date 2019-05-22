@@ -6,6 +6,7 @@ Coverage [![Coverage Status](https://coveralls.io/repos/github/flexible-collisio
 
 FCL is a library for performing three types of proximity queries on a pair of geometric models composed of triangles. 
  - Collision detection: detecting whether the two models overlap, and optionally, all of the triangles that overlap.
+ - 碰撞检测：检测两个模型是否重叠，以及所有重叠的三角形（可选）。
  - Distance computation: computing the minimum distance between a pair of models, i.e., the distance between the closest pair of points.
  - Tolerance verification: determining whether two models are closer or farther than a tolerance distance.
  - Continuous collision detection: detecting whether the two moving models overlap during the movement, and optionally, the time of contact.
